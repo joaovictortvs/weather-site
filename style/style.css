@@ -67,9 +67,38 @@ section#askCity input:focus{
     border: transparent;
 }
 
-span{
-    position: relative;
-    top: 60px;
-    left: 200px;
+span#search{
+    margin-top: 15px;
     cursor: pointer;
+}
+
+section#showWeather{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: column wrap;
+}
+
+img{
+    width: 250px;
+}
+
+.result{
+    display: flex;
+    font-size: 2.2em;
+}
+
+.result div#description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 30px;
+}
+
+.labels{
+    font-size: 0.7em;
+}
+
+div#temperature{
+    font-weight: bolder;
 }
